@@ -28,7 +28,7 @@ namespace sk92
             }
             UserNumberReader(InputNumber, LastNames);
         }
-
+ 
         protected virtual void UserNumberReader(int number, List<string> lastNames) 
         {
             UserNumberReaderEvent?.Invoke(number, lastNames);
